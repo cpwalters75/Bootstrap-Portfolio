@@ -3,17 +3,21 @@
 <!DOCTYPE html>
 
 <head>
+ 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Chris Walters-AboutMe</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel='stylesheet' href='assets/css/style.css'>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type= "text/css" href="style.css">
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4 ml-md-5 ml-sm-2">
-    <a class="navbar-brand text-sm-center" href="#">Chris Walters</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4 ml-md-5 ml-sm-2" id="navbar">
+   
+    <a class="navbar-brand text-sm-center"  href="#">Chris Walters</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,36 +26,39 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="index.html">About Me</a>
         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
+  
       </div>
     </div>
+  
   </nav>
 
-
-  <div class='container ml-md-5 bg-light border-dark rounded'>
-    <div class='row mt-4'>
-
-      <div class="col-md-12 px-0">
-        <h4 class="card-header bg-dark text-white ">About Me</h4>
-          <div class='row my-4 mx-2'>
-           
-            <div class='col-md-3 col-sm-12 text-sm-center'>
-              <div class="card-fluid">
-                  <div class="card-body text-center">
-                    <img src="duke.jpg" class ="img-fluid" >
-      
-                  </div>
-                </div>
-            </div>
-       
-            <div class='col-md-9 col-sm-12'>
-              <p>Hello, my name is Chris Walters!   </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="jumbotron" id="jumbo">
+    <h1 class="display-4">About Me</h1>
+    <div class="card-body text-center">
+      <img src="duke.jpg" class ="img-fluid" >
+    <p class="lead">Hello!  My name is Chris Walters and I have recently completed UNH's Fullstack Web Developer Coding Bootcamp.  The program taught me so much and has helped me tremedously in my pursuit to become a Full Stack Developer.  I am very excited to see what my future in programming holds! </p>
+    <hr class="my-4"/>
+    <p>
+  HTML5 | CSS3 | JavaScript | jQuery | Node | Java | Express| React | Vue | Database Theory | MongoDB | MySQL | Command Line | Git</p>
+  <hr class="my-4"/>
+  
+  <div class="social" id="social-links">
+  
+     
+  
+      <a href="https://github.com/cpwalters75" rel="noopener noreferrer" target="_blank"> 
+      <i class="fa fa-github-square" aria-hidden="true" id="social-links i">
+      </a>
+  
+  
+  
+      <a href="https://www.linkedin.com/in/christopher-walters-7213a3b5/" rel="noopener noreferrer" target="_blank"> 
+      <i class="fa fa-linkedin-square" aria-hidden="true" id="social-links i">
+      </a>
   </div>
+            
+      
+             
 
 
   <footer class="page-footer font-small footer-dark text-dark"> <!--defining footer / setting font size / setting -->
@@ -60,6 +67,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
   <script src="assets/script.js"></script>
 </body>
 
