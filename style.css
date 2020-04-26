@@ -20,14 +20,19 @@
   background: linear-gradient(to left, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   }
-  #social-links {
+  #social-links  {
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin: auto;
-    color: white;
+
+    }
+
+  #social-links i {
+    color: black;
     font-size: 5em;
     padding: 8px;
+
   }
   
 
@@ -36,9 +41,9 @@
     justify-content: space-between;
     margin: auto;
   }
-  card-deck {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
+
+  #img-duke{
+    height: 250px;
+    width: 250px
   }
  
