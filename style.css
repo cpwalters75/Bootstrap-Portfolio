@@ -25,13 +25,12 @@
     justify-content: space-between;
     width: 50%;
     margin: auto;
-  }
-  
-  #social-links i {
-    color: black;
+    color: white;
     font-size: 5em;
     padding: 8px;
   }
+  
+
   card-deck {
     display: flex;
     justify-content: space-between;
